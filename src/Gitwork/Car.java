@@ -30,16 +30,19 @@ public class Car {
     public int getPower() {
         return power;
     }
-// изменение значения мощности
+
+    // изменение значения мощности
     public void addPower(int power) {
 //        this.power = this.power + power;
         this.power += power;
     }
-// переназначеие значения поля
+
+    // переназначеие значения поля
     public void setPower(int power) {
         this.power = power;
     }
-//
+
+    //
     @Override
     public String toString() {
         return "Car{" +

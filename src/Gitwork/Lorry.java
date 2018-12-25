@@ -26,6 +26,7 @@ public class Lorry extends Car {
         this.carrying = carrying;
     }
 
+    // изменение значения грузоподъемности
     public void addCarrying(int carrying) {
         this.carrying += carrying;
     }
